@@ -63,6 +63,10 @@ The notebook uses `gradient_function()` to calculate both gradients during every
 
 During each epoch, the model calculates the error, finds the parameter update rates, and adjusts `theta` and `c`. The goal is to minimize the mean squared error.
 
+## Acknowledgment
+
+This project was created and documented with help from GitHub Copilot.
+
 ## Files
 
 - `myine.ipynb`: notebook containing the implementation and plots.
