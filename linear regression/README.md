@@ -20,6 +20,14 @@ This folder contains my learned concept and implementation of simple linear regr
 - How to plot the final regression line against the original data.
 - How to visualize the relationship between the cost and the model parameters.
 
+## Loss function
+
+The mean squared error loss function measures the average squared difference between the predicted and actual values:
+
+`J(theta, c) = (1 / m) * sum((theta * x_i + c - y_i)^2)`
+
+where `m` is the number of data points, `x_i` is an input value, `y_i` is the actual value, and `theta * x_i + c` is the prediction. A lower loss means that the model predictions are closer to the actual values.
+
 ## Gradient descent settings
 
 - `theta = 0`: initial slope
