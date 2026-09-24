@@ -65,7 +65,7 @@ During each epoch, the model calculates the error, finds the parameter update ra
 
 ## Acknowledgment
 
-This project was created and documented with help from GitHub Copilot.
+This README file was created with help from GitHub Copilot.
 
 ## Files
 
